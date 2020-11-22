@@ -1,0 +1,157 @@
+p, li {
+  font-weight: 300;
+}
+
+/* main hero */
+
+.hero .hero-body {
+  padding: 50px;
+}
+
+.hero.hero-show {
+  height: 800px;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 960px) {
+  .hero.hero-show {
+    background-image: url(assets/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
+
+.hero h1 {
+  color: #434343;
+  font-size: 60px;
+  line-height: 50px;
+  font-family: 'Pacifico';
+}
+
+.hero p {
+  text-shadow: none;
+  color: #434343;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 959px) {
+  .hero * {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .hero h1 {
+    font-size: 140px;
+    line-height: 80px;
+  }
+  .hero p {
+    font-size: 25px;
+    line-height: 38px;
+    max-width: 50%;
+  }
+}
+
+.hero .btn.btn-download {
+  background: #a9d883;
+  border-color: transparent;
+  color: white;
+}
+
+/* container padded */
+
+.container.padded {
+  max-width: 1100px;
+  width: 100%;
+}
+
+/* columns title */
+
+.columns .column.col-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0px;
+}
+
+.columns .column.col-title div {
+  text-align: center;
+}
+
+.columns .column.col-title h2 {
+  font-size: 60px;
+  line-height: 50px;
+  font-family: 'Pacifico';
+  margin-top: 20px;
+}
+
+.columns .column.col-title.bg-green {
+  background-color: #a9d883;
+}
+
+.columns .column.col-title.bg-green h2, .subtitle {
+  color: white;
+}
+
+.columns .column.col-title p {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+/* columns show  */
+
+.columns .column.col-show img {
+  max-width: 100%;
+}
+
+.columns .column.col-show h3 {
+  margin-top: 20px;
+}
+
+.columns .column.col-show p {
+  margin-bottom: 0px;
+}
+
+.columns .column.col-show ul {
+  line-height: normal;
+  margin-bottom: 40px;
+}
+
+/* columns images */
+
+.columns .column.col-img {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.columns .column.col-img img {
+  width: 100%;
+}
+
+/* columns numbers */
+
+.columns .column.col-number * {
+  text-align: center;
+}
+
+.columns .column.col-number .number {
+  color: #434343;
+  font-size: 70px;
+  line-height: 60px;
+  font-weight: 400;
+}
+
+.columns .column.col-number .title {
+  color: #434343;
+  font-size: 23px;
+  line-height: 38px;
+  font-weight: 400;
+}
+
+.columns .column.col-number .content {
+  margin-bottom: 40px;
+}
